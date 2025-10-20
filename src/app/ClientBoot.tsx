@@ -2,7 +2,7 @@
 
 import { useEffect } from "react";
 
-const THEME_COLORS = {
+export const THEME_COLORS = {
   light: "#ffffff",
   dark: "#09090b",
 };

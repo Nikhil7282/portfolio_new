@@ -1,12 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-import ClientBoot from "./ClientBoot";
-
-export const THEME_COLORS = {
-  light: "#ffffff",
-  dark: "#09090b",
-};
+import ClientBoot, { THEME_COLORS } from "./ClientBoot";
 
 const geistSans = Geist({ variable: "--font-geist-sans", subsets: ["latin"] });
 const geistMono = Geist_Mono({
