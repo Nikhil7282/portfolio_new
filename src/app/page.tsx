@@ -2,9 +2,12 @@ import { ToggleTheme } from "@/components/toggle-theme";
 import { About } from "@/features/profile/about";
 import { Overview } from "@/features/profile/overview";
 import { SocialLinks } from "@/features/profile/social-links";
+import { TechStack } from "@/features/profile/tech-stack";
 import { ProfileCover } from "@/features/profile_cover";
 import { ProfileHeader } from "@/features/profile_header";
 import { cn } from "@/lib/utils";
+import { Experiences } from "../features/profile/experiences";
+// import { WorkExperience } from "../features/profile/work_experience/work-experience";
 
 export default function Home() {
   return (
@@ -22,6 +25,9 @@ export default function Home() {
         <Separator />
         <About />
         <Separator />
+        <TechStack />
+        <Separator />
+        <Experiences />
       </div>
     </div>
   );
@@ -36,7 +42,7 @@ function Separator({ className }: { className?: string }) {
         "before:bg-[repeating-linear-gradient(315deg,var(--pattern-foreground)_0,var(--pattern-foreground)_1px,transparent_0,transparent_50%)]",
         "before:bg-[length:10px_10px]",
         "before:[--pattern-foreground:var(--color-edge)/0.56]",
-        className
+        className,
       )}
     />
   );
