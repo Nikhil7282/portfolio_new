@@ -7,12 +7,11 @@ import { ProfileCover } from "@/features/profile_cover";
 import { ProfileHeader } from "@/features/profile_header";
 import { cn } from "@/lib/utils";
 import { Experiences } from "../features/profile/experiences";
-// import { WorkExperience } from "../features/profile/work_experience/work-experience";
 
 export default function Home() {
   return (
     <div className="mx-auto md:max-w-3xl">
-      <div className="absolute right-10">
+      <div className="absolute right-5 top-5">
         <ToggleTheme />
       </div>
       <div className="mx-auto md:max-w-3xl">

@@ -10,7 +10,6 @@ export const THEME_COLORS = {
 export default function ClientBoot() {
   useEffect(() => {
     try {
-      // set theme-color dynamically
       const meta = document.querySelector<HTMLMetaElement>(
         'meta[name="theme-color"]'
       );

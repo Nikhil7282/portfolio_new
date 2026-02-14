@@ -22,11 +22,12 @@ export const USER: User = {
     },
   ],
   about: `
-Hello, World! I am Nikhil— a Software Engineer passionate about creating high-performance, user-centric software solutions with intuitive and engaging designs.
+I’m a full-stack developer who enjoys turning complex problems into clean, scalable solutions.
+With experience across modern web frameworks, cloud infrastructure, and databases, I build products end-to-end.
+I focus on performance, maintainability, and real-world impact.
+Always curious, I keep learning and adapting to new technologies.
+I value clarity in code, collaboration in teams, and growth through challenges.
 
-With 2+ years of experience, I specialize in building high-quality web and mobile applications using Next.js, React, TypeScript, and modern front-end technologies. Beyond work, I love exploring new technologies and turning ideas into reality through personal projects.
-
-Let's connect and collaborate!
   `,
   avatar: "/assets/avatar.jpeg",
   ogImage: "",

@@ -5,15 +5,13 @@ import {
 } from "lucide-react";
 import React from "react";
 
-// import { Markdown } from "@/components/markdown";
 import {
   Collapsible,
   CollapsibleContent,
   CollapsibleTrigger,
 } from "@/components/ui/collapsible";
 import { Separator } from "@/components/ui/separator";
-// import { Tag } from "@/components/ui/tag";
-// import { Prose } from "@/components/ui/typography";
+import { Tag } from "@/components/ui/tag";
 import { cn } from "@/lib/utils";
 
 import type { ExperiencePosition } from "../types/experiences";
@@ -108,7 +106,7 @@ export function ExperiencePositionItem({
             <ul className="flex flex-wrap gap-1.5 pt-2 pl-9">
               {position.skills.map((skill: string, index: number) => (
                 <li key={index} className="flex">
-                  {/* <Tag>{skill}</Tag> */}
+                  <Tag>{skill}</Tag>
                 </li>
               ))}
             </ul>
